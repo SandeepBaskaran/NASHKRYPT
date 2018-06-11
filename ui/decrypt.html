@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NASHKRYPT: Decode</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 text-center">
+            <br>
+            <br>
+            <a href="/"><button class="btn btn-info btn-block">Homepage</button></a>
+            <form method="post" enctype="multipart/form-data" id="form">
+                <h1>Decrypt</h1>
+                <br/>
+                    PNG image: <input type="file" name="original_image" accept="image/png">
+                <br/>
+                    Expected type:<select class="browser-default" name="expected_type" form="form">
+                    <option value="text">UTF-8 Text</option>
+                    <option value="binary">Binary file</option>
+                </select>
+                <br/>Password (Optional):<input type="password" name="pw">
+                <button style="display: block; margin-top: 15px;" class="btn waves-effect waves-light red" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

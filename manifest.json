@@ -1,0 +1,21 @@
+{
+    "name": "nashkrypt",
+    "short_name" : "nashkrypt",
+    "start_url": "ui/index.html?utm_source=homescreen",
+    "scope" : "./ui/",
+    "icons": [
+        {
+            "src": "./img/nash.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./nash.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffee00",
+    "background_color": "#ffee00",
+    "display": "standalone"
+}
